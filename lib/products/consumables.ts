@@ -1,0 +1,78 @@
+// 其他耗材产品数据
+export const consumables = {
+  id: "consumables",
+  title: "其他耗材",
+  description: "提供各种配套耗材，满足实验室日常需求。",
+  image:
+    "https://readdy.ai/api/search-image?query=Collection%20of%20laboratory%20consumables%20including%20vials%2C%20filters%2C%20and%20specialized%20equipment%20arranged%20professionally%20on%20clean%20white%20surface%20with%20technical%20lighting&width=400&height=300&seq=17&orientation=landscape",
+  products: [
+    {
+      id: "bulk-fillers",
+      categoryId: "consumables",
+      name: "散装填料",
+      fullName:"散装填料",
+      description: "各种规格的散装填料",
+      details: "高品质填料，适用于多种实验需求",
+      specifications: ["50μm", "100μm", "60-100目", "200-300目"],
+      applications: ["样品前处理", "固相萃取", "色谱分析"],
+      orderInfo: [
+        { code: "SX09500-1210", spec: "Silica填料 50μm", package: "10g/瓶" },
+        { code: "SX09500-1217", spec: "Silica填料 50μm", package: "100g/瓶" },
+        { code: "SX09500-1226", spec: "Silica填料 50μm", package: "500g/瓶" },
+        { code: "SX09500-1235", spec: "Silica填料 50μm", package: "1000g/瓶" },
+        { code: "SX09500-1211", spec: "C18填料 50μm", package: "10g/瓶" },
+        { code: "SX09500-1218", spec: "C18填料 50μm", package: "100g/瓶" },
+        { code: "SX09500-1227", spec: "C18填料 50μm", package: "500g/瓶" },
+        { code: "SX09500-1236", spec: "C18填料 50μm", package: "1000g/瓶" },
+        { code: "SX09500-1212", spec: "NH2填料 50μm", package: "10g/瓶" },
+        { code: "SX09500-1219", spec: "NH2填料 50μm", package: "100g/瓶" },
+        { code: "SX09500-1228", spec: "NH2填料 50μm", package: "500g/瓶" },
+        { code: "SX09500-1237", spec: "NH2填料 50μm", package: "1000g/瓶" },
+        { code: "SX09500-1209", spec: "PSA填料 50μm", package: "10g/瓶" },
+        { code: "SX09500-1220", spec: "PSA填料 50μm", package: "100g/瓶" },
+        { code: "SX09500-1229", spec: "PSA填料 50μm", package: "500g/瓶" },
+        { code: "SX09500-1238", spec: "PSA填料 50μm", package: "1000g/瓶" },
+        { code: "SX09500-1213", spec: "PSL填料 100μm", package: "10g/瓶" },
+        { code: "SX09500-1221", spec: "PSL填料 100μm", package: "100g/瓶" },
+        { code: "SX09500-1230", spec: "PSL填料 100μm", package: "500g/瓶" },
+        { code: "SX09500-1239", spec: "PSL填料 100μm", package: "1000g/瓶" },
+        { code: "SX09500-1214", spec: "Florisil填料 60-100目", package: "10g/瓶" },
+        { code: "SX09500-1222", spec: "Florisil填料 60-100目", package: "100g/瓶" },
+        { code: "SX09500-1231", spec: "Florisil填料 60-100目", package: "500g/瓶" },
+        { code: "SX09500-1240", spec: "Florisil填料 60-100目", package: "1000g/瓶" },
+        { code: "SX09500-1215", spec: "Alumina N填料 200-300目", package: "10g/瓶" },
+        { code: "SX09500-1223", spec: "Alumina N填料 200-300目", package: "100g/瓶" },
+        { code: "SX09500-1232", spec: "Alumina N填料 200-300目", package: "500g/瓶" },
+        { code: "SX09500-1241", spec: "Alumina N填料 200-300目", package: "1000g/瓶" },
+        { code: "SX09500-1216", spec: "GCB填料 100μm", package: "10g/瓶" },
+        { code: "SX09500-1224", spec: "GCB填料 100μm", package: "100g/瓶" },
+        { code: "SX09500-1233", spec: "GCB填料 100μm", package: "500g/瓶" },
+        { code: "SX09500-1242", spec: "GCB填料 100μm", package: "1000g/瓶" },
+        { code: "SX09500-1225", spec: "SXX3填料 40μm", package: "100g/瓶" },
+        { code: "SX09500-1234", spec: "SXPA填料 100-200目", package: "500g/瓶" }
+      ]
+    },
+    {
+      id: "general-consumables",
+      categoryId: "consumables",
+      name: "通用型耗材",
+      fullName:"通用型耗材",
+      description: "各种实验室通用耗材，柱管均采用医疗级聚丙烯一次成型，筛板均采用超高分子量聚乙烯高温烧结而成。\n多种型号可供选择;更可按照客户需求提供订制服务;使客户享受更高品质的服务体验。",
+      details: "高品质耗材，满足实验室日常需求",
+      specifications: ["多种规格可选"],
+      applications: ["样品处理", "实验操作", "仪器配套"],
+      orderInfo: [
+        { product: "筛板", description: "筛板是固相萃取柱的重要组成部件，起着固定填料和控制流速的功能。固相萃取用筛板经专门优化，在流速控制、纯净度、稳定性和溶剂兼容性方面均为世界水平，已被多个知名的固相萃取柱品牌采用。\n超纯净筛板，HPSW生物提供的超纯净筛板是选用疏水性筛板经过多种有机溶剂回流净化处理而成。超纯净筛板用于SPE检测背景更低，非常适合高灵敏度的分析测试。疏水性板能被有机溶剂润湿，已用于多种商品化的SPE产品。" },
+        { product: "柱管", description: "1mL、3mL、6mL、12mL、15mL、30mL、60mL、300mL等规格空柱管。\n固相萃取空柱由柱管和上、下筛板构成，可有客户自行填装SPE吸附剂、滤膜、固态反应物等，从而满足实验室灵活多变的需求。\n塑料空柱:柱管由医疗级聚丙烯注塑而成，出口为鲁尔公口，带PE筛板，大体积柱带压圈。\n玻璃空柱:柱管为高纯度玻璃，出口为鲁尔公口，带PTFE筛板。" },
+        { product: "品瓶", description: "" },
+        { product: "盖垫", description: "" },
+        { product: "针式过滤器", description: "" },
+        { product: "尼龙滤膜", description: "" },
+        { product: "聚四氟乙烯滤膜", description: "" },
+        { product: "聚醚砜滤膜", description: "" },
+        { product: "聚丙烯滤膜", description: "" },
+        { product: "其他耗材", description: "详细请联系我们。" },
+      ]
+    }
+  ]
+};
